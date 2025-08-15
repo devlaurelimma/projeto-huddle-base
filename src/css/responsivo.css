@@ -1,0 +1,35 @@
+@media (max-width: 375px){
+    body{
+        height: 100vh;
+    background: url(/src/images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    padding: 20px;
+    }
+    .page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    main{
+        flex-direction: column;
+        gap: 10px;
+    }
+    main img{
+        width: 100%;
+    }
+    main .text-main{
+        align-items: center;
+        text-align: center;
+    }
+    main .text-main h1{
+        font-size: 1.8rem;
+    }
+    main .text-main p{
+        font-size: 1.2rem;
+    }
+    footer {
+        justify-content: center;
+    }
+}
